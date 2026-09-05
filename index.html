@@ -3,94 +3,142 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>3D FIGHTER — サービス紹介</title>
-  <meta name="description" content="3D FIGHTERは、宇宙を駆ける本格派シューティングゲームです。直感操作でミサイルとスピードを駆使し、敵機を撃ち抜け。">
-  <meta property="og:title" content="3D FIGHTER — サービス紹介">
-  <meta property="og:description" content="宇宙を駆ける本格派シューティング。3D FIGHTERのサービス紹介ページ。">
-  <meta property="og:image" content="assets/title.jpg">
+  <title>暁の帰投 — サービス紹介</title>
+  <meta name="description" content="暁の帰投。燃料を残して空母へ帰れ。暁航空団に配属されたあなたは、空母「暁」から出撃する。迎撃・護衛・基地防衛のあと、着艦して初めて成功となる作戦型フライトシューティング。">
+  <meta property="og:title" content="暁の帰投 — サービス紹介">
+  <meta property="og:description" content="燃料を残して空母へ帰れ。目標達成だけでは終わらない、作戦型フライトシューティング。">
+  <meta property="og:image" content="assets/hero.jpg">
   <meta name="theme-color" content="#03060d">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;800&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700;900&family=Orbitron:wght@600;700;800&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="stars" aria-hidden="true"></div>
 
   <header class="site-header">
-    <a class="logo" href="index.html">3D <span>FIGHTER</span></a>
+    <a class="logo" href="index.html">暁の<span>帰投</span></a>
     <nav class="nav" aria-label="メイン">
-      <a href="index.html" aria-current="page">Service</a>
-      <a href="privacy.html">Privacy</a>
+      <a href="index.html" aria-current="page">紹介</a>
+      <a href="privacy.html">プライバシー</a>
     </nav>
   </header>
 
   <main>
     <section class="hero" aria-label="サービス紹介">
       <div class="hero-media">
-        <video
-          autoplay
-          muted
-          loop
-          playsinline
-          poster="assets/title.jpg"
-          aria-label="3D FIGHTER ゲームプレイ映像"
-        >
-          <source src="assets/gamerecord.mp4" type="video/mp4">
-        </video>
+        <img src="assets/out1.png" alt="暁の帰投 タイトル画面。空母甲板からの出撃シーン">
       </div>
       <div class="hero-content">
-        <h1 class="brand"><small>3D</small>FIGHTER</h1>
-        <p class="lead">宇宙空間を縦横に駆け、敵機を撃ち抜く本格派シューティング。直感操作とスピード感で、いつでも戦場へ。</p>
+        <p class="eyebrow">暁航空団</p>
+        <h1 class="brand-jp">暁の帰投</h1>
+        <p class="lead">燃料を残して空母へ帰れ</p>
         <div class="cta-row">
-          <a class="btn" href="#features">ゲームを知る</a>
+          <a class="btn" href="#story">ゲームを知る</a>
           <a class="btn btn-ghost" href="privacy.html">プライバシー</a>
         </div>
       </div>
     </section>
 
-    <section class="section" id="features">
-      <h2>Features</h2>
-      <p>シンプルな操作で、奥深い戦闘体験。ミサイルとスピードを切り替え、スコアを伸ばそう。</p>
+    <section class="section" id="story">
+      <h2>作戦概要</h2>
+      <div class="prose">
+        <p>暁航空団に配属されたあなたは、空母「暁」から出撃する。</p>
+        <p>ただ撃ち続けるゲームではない。迎撃・護衛・基地防衛の作戦には目標があり、それを達成したあと、残った燃料で空母へ着艦して初めて成功となる。燃料切れ、護衛対象の喪失、空母の大破はすべて作戦失敗だ。</p>
+      </div>
+    </section>
+
+    <section class="section" id="hangar">
+      <h2>ハンガー</h2>
+      <div class="prose">
+        <p>ハンガーでは戦果を使って機体を解放する。扱いやすい練習機「雀」、速い迎撃機「隼」、厚い重戦「鷲」。武装は標準・連装・長射程。燃料タンク、エンジン、装甲も強化できる。毎回同じ戦闘機で終わらない。</p>
+      </div>
       <div class="features">
         <article class="feature">
-          <h3>直感操作</h3>
-          <p>仮想パッドで自機を自在に移動。指一本で回避と攻撃をコントロールできます。</p>
+          <h3>練習機 雀</h3>
+          <p>扱いやすく、最初の立航に最適な機体。</p>
         </article>
         <article class="feature">
-          <h3>ミサイル</h3>
-          <p>強大な火力で戦況を打開。ピンチの瞬間に撃ち込み、敵の群れを一掃します。</p>
+          <h3>迎撃機 隼</h3>
+          <p>速さを活かし、外縁の敵を叩く迎撃向き。</p>
         </article>
         <article class="feature">
-          <h3>スピード</h3>
-          <p>加速で弾幕をすり抜け、有利なポジションへ。攻めと逃げを切り替えろ。</p>
+          <h3>重戦 鷲</h3>
+          <p>厚い装甲で空母防衛や長期戦に耐える。</p>
         </article>
       </div>
     </section>
 
-    <section class="section" id="gameplay">
-      <h2>Gameplay</h2>
-      <p>実際のプレイ画面。スコアを伸ばしながら、迫りくる敵と小惑星を突破しよう。</p>
-      <div class="gallery">
-        <div class="phone">
-          <img src="assets/gameplay-1.png" alt="3D FIGHTERのプレイ画面。自機と操作UI">
-        </div>
-        <div class="gallery-copy">
-          <div class="phone" style="margin-bottom: 1.25rem;">
-            <img src="assets/gameplay-2.png" alt="3D FIGHTERのプレイ画面。小惑星と戦闘シーン">
+    <section class="section" id="missions">
+      <h2>作戦ボード</h2>
+      <p>目標を達成し、燃料を残して空母「暁」へ着艦せよ。</p>
+      <ul class="mission-list">
+        <li>
+          <span class="mission-id">M01</span>
+          <div>
+            <strong>第一次立航</strong>
+            <span>迎撃して帰れ</span>
           </div>
-          <ul>
-            <li>縦スクロールの宇宙シューティング</li>
-            <li>スコア表示でハイスコアを目指す</li>
-            <li>ミサイル／スピードの二系統アクション</li>
-          </ul>
-        </div>
+        </li>
+        <li>
+          <span class="mission-id">M02</span>
+          <div>
+            <strong>白鷗護衛</strong>
+            <span>輸送艦を目的点まで守れ</span>
+          </div>
+        </li>
+        <li>
+          <span class="mission-id">M03</span>
+          <div>
+            <strong>暁防衛</strong>
+            <span>空母甲板を死守せよ</span>
+          </div>
+        </li>
+        <li>
+          <span class="mission-id">M04</span>
+          <div>
+            <strong>外縁迎撃</strong>
+            <span>少ない燃料で8機を落とせ</span>
+          </div>
+        </li>
+        <li>
+          <span class="mission-id">M05</span>
+          <div>
+            <strong>夜明け前</strong>
+            <span>最終防衛</span>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="section" id="screens">
+      <h2>スクリーンショット</h2>
+      <p>タイトル、出撃中、ハンガーの作戦ボード。</p>
+      <div class="shot-grid">
+        <figure class="phone">
+          <img src="assets/out1.png" alt="暁の帰投 タイトル画面">
+          <figcaption>タイトル</figcaption>
+        </figure>
+        <figure class="phone">
+          <img src="assets/out2.png" alt="暁の帰投 プレイ画面。白鷗護衛ミッション">
+          <figcaption>出撃</figcaption>
+        </figure>
+        <figure class="phone">
+          <img src="assets/out3.png" alt="暁の帰投 ハンガーと作戦ボード">
+          <figcaption>ハンガー</figcaption>
+        </figure>
       </div>
+    </section>
+
+    <section class="section rule" id="rule">
+      <h2>独自の規則</h2>
+      <p class="rule-text">独自の規則はひとつ。目標達成だけでは終わらない。<strong>燃料を残して空母へ帰れ。</strong></p>
     </section>
 
     <section class="section" id="about">
       <h2>About</h2>
-      <p>本ページは「3D FIGHTER」のサービス紹介ページです。アプリの概要・操作・プライバシー方針をご確認いただけます。</p>
+      <p>本ページは「暁の帰投」のサービス紹介ページです。アプリの概要とプライバシー方針をご確認いただけます。</p>
       <div class="cta-row">
         <a class="btn" href="privacy.html">プライバシーポリシー</a>
         <a class="btn btn-ghost" href="mailto:support@corevista.jp">サポート</a>
